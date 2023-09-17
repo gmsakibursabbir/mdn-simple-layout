@@ -26,38 +26,51 @@
   </head>
   <body>
     <!--=== ALART START ===-->
-    <section class="alart">
+    <section class="alart brd--b">
       <div class="container txt--aln">
         <p>
           Get real-time assistance with your coding queries. Try
-          <a href="#">AI Help</a> now!
+          <a class="a-u" href="#">AI Help</a> now!
         </p>
       </div>
     </section>
     <!--=== ALART END ===-->
     <!--=== HEADER START ===-->
-    <header class="header">
-      <div class="container d--flex d--j-c-sb">
+    <header class="header brd--b">
+      <div class="container d--flex d--j-c-sb d--aln-itm">
         <!-- left_header -->
-        <div class="l-header d--flex ">
-          <a class="navbar-brand" href="#">
-            MDN_
+        <div class="l-header d--flex d--aln-itm">
+          <a class="navbar-brand" href="index.html">
+            <div class="logo-image">
+              <img src="./images/logo.png" alt="logo" />
+            </div>
           </a>
           <nav>
-            <ul class="d--flex">
-              <li><a href="#">Reference</a></li>
-              <li><a href="#">Guides</a></li>
-              <li><a href="#">Plus</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Play</a></li>
-              <li><a href="#">AI Help</a></li>
+            <ul class="navbar d--flex">
+              <li class="list-box">
+                <a class="nav-link" href="#">Reference</a>
+              </li>
+              <li class="list-box"><a class="nav-link" href="#">Guides</a></li>
+              <li class="list-box"><a class="nav-link" href="#">Plus</a></li>
+              <li class="list-box"><a class="nav-link" href="#">Blog</a></li>
+              <li class="list-box"><a class="nav-link" href="#">Play</a></li>
+              <li class="list-box"><a class="nav-link" href="#">AI Help</a></li>
             </ul>
           </nav>
         </div>
         <!-- right_header -->
         <div class="r_header d--flex">
-          <button type="button">Log in</button>
-          <button type="button">Sign up for free</button>
+          <div class="theme d--flex d--aln-itm">
+            <label class="icon" 
+              ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm2 0c0-5.514 4.486-10 10-10v20c-5.514 0-10-4.486-10-10z"/></svg></label>
+            <select>
+              <option><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm2 0c0-5.514 4.486-10 10-10v20c-5.514 0-10-4.486-10-10z"/></svg>OS theme</p></option>
+              <option>Light</option>
+              <option>Dark</option>
+            </select>
+          </div>
+          <a class="btn-1" href="https://www.google.com">Log in</a>
+          <a class="btn-2" href="#">Sign up for free</a>
         </div>
       </div>
     </header>
