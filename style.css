@@ -46,12 +46,6 @@
   text-align: center;
 }
 
-img{
-    width: 80%;
-}
-
-
-
 /*=== _BODY_ ===*/
 
 body {
@@ -70,7 +64,7 @@ body {
 .header {
 }
 
-
-.l-header .logo {
+.navbar-brand {
   text-decoration: none;
+  color: #ffffff;
 }
