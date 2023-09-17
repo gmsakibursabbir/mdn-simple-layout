@@ -1,0 +1,71 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*== ROOT ==*/
+
+:root{
+    --primary-color: #1b1b1b;
+    --secondary-color: #ffffff;
+    --gray-color: #343434;
+    --gray-deep-color: ##858585;
+    --blue-color: #8cb4ff;
+}
+
+/*== COMMON_REUSED ==*/
+
+/* container */
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* display_flex */
+.d--flex {
+  display: flex;
+}
+
+/* justify_contant_center */
+.d--j-c-sb {
+  justify-content: space-between;
+}
+
+/* align_items_center */
+.d--aln-itm {
+  align-items: center;
+}
+
+/* text_align */
+.txt--aln {
+  text-align: center;
+}
+
+
+a{
+    color: var(--blue-color);
+}
+
+/*=== _BODY_ ===*/
+
+body{
+    background: var(--primary-color);
+}
+
+/*=== ALART ===*/
+.alart{
+    background-color: var(--gray-color);
+    color: var(--secondary-color);
+    padding: 18px 0;
+    border-bottom: 1px solid var(--gray-deep-color);
+}
+
+
+
+/*=== HEADER ===*/
+
