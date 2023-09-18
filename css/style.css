@@ -160,7 +160,6 @@ body {
 
 .drop--down{
   position: relative;
-  display: inline-block;
   transition: var(--animation);
 }
 
@@ -194,6 +193,8 @@ body {
   min-width: 140px;
   padding: 8px;
   z-index: 1;
+  border: 1px solid rgba(255, 255, 255, 0.384);
+  border-radius: 4px;
   box-shadow: rgba(251, 251, 254, 0.2) 0px 1px 6px 0px;
 }
 
@@ -252,4 +253,24 @@ body {
 
 .l-bdcp_menu li a:hover{
   text-decoration: underline;
+}
+
+
+
+/*=== MAIN ===*/
+.main--container{
+  display: grid;
+  grid-template-columns: 0.45fr 1fr 0.35fr;
+}
+
+.item1{
+  background-color: red;
+}
+
+.item2{
+  background-color: green;
+}
+
+.item3{
+  background-color: blue;
 }
