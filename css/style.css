@@ -523,3 +523,39 @@ summary:hover {
   font-size: 14px;
   margin-top: 16px;
 }
+
+
+/* middle footer */
+.m_fr{
+  padding: 36px 0;
+}
+
+.logo-moz{
+  padding-right: 24px;
+}
+
+.logo-moz img{
+  width: 150px;
+}
+
+.m_fr-box a{
+  padding-left: 16px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  transition: var(--animation);
+}
+
+.m_fr-box a:hover{
+  text-decoration: none;
+}
+/* bottom footer */
+.b_fr{}
+
+.b_box{}
+
+.b_box p{
+  font-size: 12px;
+  padding-top: 8px;
+  color: var(--text-secondary);
+}
+
