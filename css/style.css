@@ -460,23 +460,25 @@ summary:hover {
 .footer{
   background: var(--gray-color);
   padding: 36px 0;
+  margin-top: 48px;
 }
 
 /* top footer */
 
 .t_fr{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.t_fr-box:not(:first-child){
+/* .t_fr-box:not(:first-child){
   text-align: center;
-}
+} */
 
 .t-fr-logo{
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--text-secondary);
+  letter-spacing: 0.5px;
 }
 
 .t-fr-pera{
@@ -486,7 +488,38 @@ summary:hover {
 
 .socal-icon div{
   fill: var(--text-secondary);
-  padding-right: 24px;
+  padding-right: 20px;
   padding-top: 32px;
   cursor: pointer;
+}
+
+.si_icon svg{
+  width: 18px;
+}
+
+.pd_fr{
+ padding-left: 80px;
+ padding-bottom: 32px;
+}
+
+.fr_menu_p{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.fr_menu{
+  list-style: none;
+}
+
+.fr_menu li{
+  padding-top: 14px;
+}
+
+.fr_menu li a{
+  text-decoration: none;
+  color: var(--text-secondary);
+  text-align: left;
+  font-size: 14px;
+  margin-top: 16px;
 }
